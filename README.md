@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# TaskApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskApp is a streamlined and efficient task management application built with React. It demonstrates proficiency in TypeScript, CSS, semantic HTML, and effective use of modern React practices. The application allows users to seamlessly add, edit, mark as done, and delete tasks, showcasing skills in component-based architecture, state management, and user interaction design. This README provides a detailed description of the key components and functionalities of the application.
 
-Currently, two official plugins are available:
+![Screenshot (161)](https://github.com/SultanMalik1/TaskApp/assets/128871821/15faefc7-27af-4187-91ab-606867c3bc22)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Getting Started](#getting-started)
+- [Components](#components)
+  - [App Component](#app-component)
+  - [InputField Component](#inputfield-component)
+  - [SingleTodo Component](#singletodo-component)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with TaskApp, clone the repository and install the necessary dependencies.
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+git clone https://github.com/your-username/taskapp.git
+cd taskapp
+npm install
+npm start
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
